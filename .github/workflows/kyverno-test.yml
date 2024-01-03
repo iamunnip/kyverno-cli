@@ -1,4 +1,4 @@
-name: Policy testing via Configuration File
+name: Testing policies using Kyverno test configuration
 
 on:
   push:
@@ -22,5 +22,5 @@ jobs:
       - name: Verify Kyverno CLI installation
         run: kyverno version
 
-      - name: Test the policy against the resource
+      - name: Test the policy
         run: kyverno test .
