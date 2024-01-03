@@ -1,4 +1,4 @@
-name: Testing Policies using Kyverno CLI
+name: Policy testing via Configuration File
 
 on:
   push:
